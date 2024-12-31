@@ -49,7 +49,7 @@ export function StarknetProvider({ children }: StarknetProviderProps) {
 
   return (
     <StarknetConfig
-      connectors={connectors}
+      // connectors={connectors}
       chains={[mainnet, sepolia]}
       provider={provider}
       explorer={starkscan}
